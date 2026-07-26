@@ -1,6 +1,11 @@
 import { Flex, Text, Image, Heading } from "hase-ui";
 import books from "./books.json";
 import BookCard from "@/components/BookCard/BookCard";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Books",
+};
 
 export default function BooksPage() {
   const realBooks = books.slice(1);

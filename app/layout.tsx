@@ -15,8 +15,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nic Hase",
-  description: "Hase Home",
+  title: {
+    template: "%s | Nic Hase",
+    default: "Nic Hase",
+  },
 };
 
 export default function RootLayout({

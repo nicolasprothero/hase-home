@@ -1,4 +1,9 @@
 import { Div, Flex } from "hase-ui";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Writes",
+};
 
 // src/app/about/page.tsx
 export default function WritingsPage() {

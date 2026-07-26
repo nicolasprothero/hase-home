@@ -1,4 +1,9 @@
 import { Div, Flex } from "hase-ui";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Photos",
+};
 
 export default function PhotosPage() {
   return (
