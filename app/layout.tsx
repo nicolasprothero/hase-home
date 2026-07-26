@@ -36,7 +36,7 @@ export default function RootLayout({
               Home
             </Button>
             <Button as={Link} href="/books">
-              Books
+              Books (2026)
             </Button>
             <Button as={Link} href="/writings">
               Writings

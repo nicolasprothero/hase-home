@@ -20,8 +20,7 @@ export default function Home() {
             color="color-mix(in oklab, #1d1d1d 90%, transparent)"
             fontSize="12px"
           >
-            There is great illustration work everywhere for those with the eyes
-            to see.
+            There are cathedrals everywhere for those with the eyes to see.
           </Text>
         </Flex>
       </Flex>
