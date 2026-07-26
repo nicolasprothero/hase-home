@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { Button, Flex, Header } from "hase-ui";
-import Link from "next/link";
+import { Flex, Header } from "hase-ui";
+import { NavButton } from "@/components/NavButton";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,18 +32,10 @@ export default function RootLayout({
       <body>
         <Header paddingY="10px">
           <Flex gap="12px">
-            <Button as={Link} href="/">
-              Home
-            </Button>
-            <Button as={Link} href="/books">
-              Books (2026)
-            </Button>
-            <Button as={Link} href="/writings">
-              Writings
-            </Button>
-            <Button as={Link} href="/photos">
-              Photos
-            </Button>
+            <NavButton href="/">Home</NavButton>
+            <NavButton href="/books">Books (2026)</NavButton>
+            <NavButton href="/writings">Writings</NavButton>
+            <NavButton href="/photos">Photos</NavButton>
           </Flex>
         </Header>
         {children}

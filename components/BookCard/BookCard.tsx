@@ -1,4 +1,4 @@
-import { Flex, Div, Text, Image, Heading } from "hase-ui";
+import { Flex, Text, Image, Heading } from "hase-ui";
 
 interface Book {
   title: string;
@@ -24,9 +24,9 @@ export default function BookCard({ book, index }: BookCardProps) {
         paddingX="32px"
         style={{ border: "2px #eee solid" }}
       >
-        <Flex gap="20px" justify="center">
+        <Flex gap="20px" align="center">
           {book.image_URL && (
-            <Div height="300px" width="320px" style={{ overflow: "hidden" }}>
+            <Flex height="300px" width="320px" style={{ overflow: "hidden" }}>
               <Image
                 src={book.image_URL}
                 alt={book.title}
@@ -34,7 +34,7 @@ export default function BookCard({ book, index }: BookCardProps) {
                 height="100%"
                 style={{ objectFit: "contain" }}
               />
-            </Div>
+            </Flex>
           )}
           <Flex flexDir="column" justify="center" gap="12px" width="300px">
             <Flex flexDir="column" gap="4px">

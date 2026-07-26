@@ -21,6 +21,7 @@ export default function BooksPage() {
       <Flex flexDir="column" justify="start" gap="6px">
         <Image
           width="800px"
+          height="453px"
           borderRadius="22px"
           src="https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0ODIzMDM2Ni9vcmlnaW5hbF82ZGM5ZjI3MWI5YjhiM2Q0MDgzYjg4YTI3ODdiYjg2MS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoyNDAwLCJoZWlnaHQiOjI0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
         ></Image>
