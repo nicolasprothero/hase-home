@@ -2,9 +2,10 @@ import { Flex, Text, Image, Heading } from "hase-ui";
 import books from "./books.json";
 import BookCard from "@/components/BookCard/BookCard";
 import type { Metadata } from "next";
+import { ScrollToTop } from "@/components/ScrollToTop/ScrollToTop";
 
 export const metadata: Metadata = {
-  title: "Books",
+  title: "Books 2024",
 };
 
 export default function BooksPage() {
@@ -28,13 +29,13 @@ export default function BooksPage() {
           width="800px"
           height="453px"
           borderRadius="22px"
-          src="https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0ODIzMDM2Ni9vcmlnaW5hbF82ZGM5ZjI3MWI5YjhiM2Q0MDgzYjg4YTI3ODdiYjg2MS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoyNDAwLCJoZWlnaHQiOjI0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+          src="https://s3.amazonaws.com/arena_images-temp/uploads%2F92d64841-fe18-4967-90e6-467b21eba854%2FIMG_2459.JPG"
         ></Image>
         <Text
           color="color-mix(in oklab, #1d1d1d 90%, transparent)"
           fontSize="12px"
         >
-          My bookshelf back home, taken before I moved to New York.
+          Copy of Breasts and Eggs that Maria's reading on a train in Spain.
         </Text>
       </Flex>
       <Heading
@@ -44,7 +45,7 @@ export default function BooksPage() {
         align="center"
         width="200px"
       >
-        This is a list of every book that I have read in 2026.
+        This is a list of every book that I read back in 2024.
       </Heading>
       <Flex
         style={{ border: "2px #eee solid" }}
@@ -72,6 +73,7 @@ export default function BooksPage() {
       {realBooks.map((book, index) => (
         <BookCard key={`${book.title}-${index}`} book={book} index={index} />
       ))}
+      <ScrollToTop />
     </Flex>
   );
 }

@@ -2,7 +2,7 @@ import { Flex, Div, Text, Image } from "hase-ui";
 
 export default function Home() {
   return (
-    <Div>
+    <Div height="90vh">
       <Flex
         flexDir="column"
         align="center"
