@@ -25,12 +25,7 @@ export default function BooksPage() {
       paddingY="48px"
     >
       <Flex flexDir="column" justify="start" gap="6px">
-        <Image
-          width="800px"
-          height="453px"
-          borderRadius="22px"
-          src="https://s3.amazonaws.com/arena_images-temp/uploads%2F92d64841-fe18-4967-90e6-467b21eba854%2FIMG_2459.JPG"
-        ></Image>
+        <Image width="800px" height="453px" borderRadius="22px" src=""></Image>
         <Text
           color="color-mix(in oklab, #1d1d1d 90%, transparent)"
           fontSize="12px"

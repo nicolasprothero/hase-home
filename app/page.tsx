@@ -15,7 +15,7 @@ export default function Home() {
             width="420px"
             height="560px"
             borderRadius="22px"
-            src="https://d2w9rnfcy7mm78.cloudfront.net/48230367/original_faa15551a53b5ecf0db63a656803dbb1.jpeg?1785038612?bc=0"
+            src=""
           ></Image>
           <Text
             color="color-mix(in oklab, #1d1d1d 90%, transparent)"

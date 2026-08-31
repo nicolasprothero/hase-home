@@ -29,7 +29,7 @@ export default function BooksPage() {
           width="800px"
           height="453px"
           borderRadius="22px"
-          src="https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0ODIzMDM2Ni9vcmlnaW5hbF82ZGM5ZjI3MWI5YjhiM2Q0MDgzYjg4YTI3ODdiYjg2MS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoyNDAwLCJoZWlnaHQiOjI0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0="
+          src="https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/books2026/books2026banner.jpeg"
         ></Image>
         <Text
           color="color-mix(in oklab, #1d1d1d 90%, transparent)"
