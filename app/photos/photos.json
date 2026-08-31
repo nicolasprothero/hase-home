@@ -1,5 +1,38 @@
 [
   {
+    "images": ["", ""],
+    "caption": "Caption",
+    "photos_from": "01/01/2025",
+    "thoughts": ""
+  },
+  {
+    "images": [
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/my-room-2026/1.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/my-room-2026/2.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/my-room-2026/3.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/my-room-2026/4.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/my-room-2026/5.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/my-room-2026/6.jpg"
+    ],
+    "caption": "My room in New York.",
+    "photos_from": "01/01/2025",
+    "thoughts": ""
+  },
+  {
+    "images": [
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/union-pool/1.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/union-pool/2.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/union-pool/3.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/union-pool/4.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/union-pool/5.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/union-pool/6.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/union-pool/7.jpg"
+    ],
+    "caption": "If anyone joined the stream recently, UP stands for union pool, I'm just using slang.",
+    "photos_from": "01/01/2025",
+    "thoughts": ""
+  },
+  {
     "images": [
       "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/spain-game/kodak_400_c_41_45232_142927_318615_000076160015.jpg",
       "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/spain-game/kodak_400_c_41_45232_142927_318615_000076160014.jpg",
@@ -19,6 +52,19 @@
     "photos_from": "01/01/2025",
     "thoughts": ""
   },
+
+  {
+    "images": [
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/gov-ball-2026/1.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/gov-ball-2026/2.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/gov-ball-2026/3.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/gov-ball-2026/4.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/gov-ball-2026/5.jpg"
+    ],
+    "caption": "Day out with the bae.",
+    "photos_from": "01/01/2025",
+    "thoughts": ""
+  },
   {
     "images": [
       "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/diegos-bday/kodak_160_c_41_45232_142927_318614_000076150018.jpg",
@@ -34,6 +80,51 @@
       "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/diegos-bday/kodak_160_c_41_45232_142927_318614_000076150029.jpg"
     ],
     "caption": "special thanks to Fernando for spending $600 on a flight here.",
+    "photos_from": "01/01/2025",
+    "thoughts": ""
+  },
+  {
+    "images": [
+      "  https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/hokkaido-2026/1.jpg",
+      "  https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/hokkaido-2026/2.jpg",
+      "  https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/hokkaido-2026/3.jpg",
+      "  https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/hokkaido-2026/4.jpg",
+      "  https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/hokkaido-2026/5.jpg",
+      "  https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/hokkaido-2026/6.jpg",
+      "  https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/hokkaido-2026/7.jpg"
+    ],
+    "caption": "Hokkaido with Dad.",
+    "photos_from": "01/01/2025",
+    "thoughts": ""
+  },
+  {
+    "images": [
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/mario-world/1.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/mario-world/2.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/mario-world/3.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/mario-world/4.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/mario-world/5.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/mario-world/6.jpg"
+    ],
+    "caption": "Super Mario World",
+    "photos_from": "01/01/2025",
+    "thoughts": ""
+  },
+  {
+    "images": [
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/japan-hakone/1.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/japan-hakone/2.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/japan-hakone/3.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/japan-hakone/4.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/japan-hakone/5.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/japan-hakone/6.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/japan-hakone/7.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/japan-hakone/8.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/japan-hakone/9.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/japan-hakone/10.jpg",
+      "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/japan-hakone/11.jpg"
+    ],
+    "caption": "now look at the exuberance japan feeds into these american souls",
     "photos_from": "01/01/2025",
     "thoughts": ""
   }

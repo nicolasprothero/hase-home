@@ -1,4 +1,5 @@
 import { Flex, Text, Image, Heading } from "hase-ui";
+import { HeroSection } from "@/components/HeroSection";
 import books from "./books.json";
 import BookCard from "@/components/BookCard/BookCard";
 import type { Metadata } from "next";
@@ -24,29 +25,11 @@ export default function BooksPage() {
       gap="40px"
       paddingY="48px"
     >
-      <Flex flexDir="column" justify="start" gap="6px">
-        <Image
-          width="800px"
-          height="453px"
-          borderRadius="22px"
-          src="https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/books2026/books2026banner.jpeg"
-        ></Image>
-        <Text
-          color="color-mix(in oklab, #1d1d1d 90%, transparent)"
-          fontSize="12px"
-        >
-          My bookshelf at home, taken before I moved to New York.
-        </Text>
-      </Flex>
-      <Heading
-        as="h1"
-        lineHeight="22px"
-        fontSize="20px"
-        align="center"
-        width="200px"
-      >
-        This is a list of every book that I have read in 2026.
-      </Heading>
+      <HeroSection
+        bannerImage="https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/books2026/books2026banner.jpeg"
+        bannerCaption="My bookshelf at home, taken before I moved to New York."
+        heading="This is a list of every book that I have read in 2026."
+      />
       <Flex
         style={{ border: "2px #eee solid" }}
         paddingX="24px"
