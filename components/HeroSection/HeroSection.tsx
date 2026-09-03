@@ -12,7 +12,7 @@ export function HeroSection({
   heading,
 }: HeroSectionProps) {
   return (
-    <>
+    <Flex flexDir="column" gap="40px" align="center">
       <Flex flexDir="column" justify="start" gap="6px">
         {bannerImage && (
           <Image
@@ -42,6 +42,6 @@ export function HeroSection({
           {heading}
         </Heading>
       )}
-    </>
+    </Flex>
   );
 }
