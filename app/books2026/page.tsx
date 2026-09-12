@@ -18,7 +18,7 @@ export default function BooksPage() {
     0,
   );
   return (
-    <Flex flexDir="column" align="center" margin="0 auto" gap="40px">
+    <Flex flexDir="column" align="center" margin="0 auto">
       <HeroSection
         bannerImage="https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/books2026/books2026banner.jpeg"
         bannerCaption="My bookshelf at home, taken before I moved to New York."
@@ -29,6 +29,7 @@ export default function BooksPage() {
         paddingX="24px"
         paddingY="12px"
         gap="48px"
+        marginBottom="48px"
       >
         <Flex flexDir="column" align="center">
           <Text lineHeight="20px" fontSize="16px">
@@ -47,9 +48,11 @@ export default function BooksPage() {
           </Text>
         </Flex>
       </Flex>
-      {realBooks.map((book, index) => (
-        <BookCard key={`${book.title}-${index}`} book={book} index={index} />
-      ))}
+      <Flex flexDir="column" gap="20px">
+        {realBooks.map((book, index) => (
+          <BookCard key={`${book.title}-${index}`} book={book} index={index} />
+        ))}
+      </Flex>
       <ScrollToTop />
     </Flex>
   );

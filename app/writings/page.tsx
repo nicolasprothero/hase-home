@@ -19,7 +19,7 @@ export default function WritingsPage() {
         bannerCaption="My second(?) sketchbook back in university."
         heading="Random lists and things I decide to put down on paper!"
       />
-      <Flex flexDir="column" gap="40px">
+      <Flex flexDir="column" gap="20px">
         {realWritings.map((writing, index) => (
           <WritingCard key={index} writing={writing} index={index} />
         ))}
