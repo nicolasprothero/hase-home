@@ -18,9 +18,6 @@ export default function PhotosPage() {
       <Div marginBottom="40px">
         <HeroSection heading="photos taken both on film and on my iPhone" />
       </Div>
-      <Flex width="100%" marginBottom="12px" style={{ maxWidth: "720px" }}>
-        <Text>2026</Text>
-      </Flex>
       <Flex flexDir="column" gap="40px">
         {realPhotos.map((photo, index) => (
           <PhotoCard

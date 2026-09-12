@@ -18,13 +18,7 @@ export default function BooksPage() {
     0,
   );
   return (
-    <Flex
-      flexDir="column"
-      align="center"
-      margin="0 auto"
-      paddingY="48px"
-      gap="40px"
-    >
+    <Flex flexDir="column" align="center" margin="0 auto" gap="40px">
       <HeroSection
         bannerImage="https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/books2026/books2026banner.jpeg"
         bannerCaption="My bookshelf at home, taken before I moved to New York."

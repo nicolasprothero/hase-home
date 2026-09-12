@@ -12,14 +12,22 @@ export function HeroSection({
   heading,
 }: HeroSectionProps) {
   return (
-    <Flex flexDir="column" gap="40px" align="center">
+    <Flex
+      flexDir="column"
+      gap="40px"
+      align="center"
+      paddingY="48px"
+      width="90vw"
+      maxWidth="800px"
+    >
       <Flex flexDir="column" justify="start" gap="6px">
         {bannerImage && (
           <Image
-            width="800px"
-            height="453px"
+            height="auto"
             borderRadius="22px"
             src={bannerImage}
+            alt={heading ?? "Banner image"}
+            style={{ objectFit: "cover" }}
           />
         )}
         {bannerCaption && (
