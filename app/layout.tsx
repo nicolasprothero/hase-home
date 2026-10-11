@@ -1,18 +1,14 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { Flex, Header } from "hase-ui";
 import { NavButton } from "@/components/NavButton";
 import { Footer } from "@/components/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const arealFont = localFont({
+  src: "./fonts/ABCArealVariable.ttf",
+  variable: "--font-areal",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -29,10 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
+    <html lang="en" className={`${arealFont.variable} h-full antialiased`}>
       <body>
         <Header paddingY="10px">
           <Flex gap="12px">
