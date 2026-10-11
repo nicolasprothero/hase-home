@@ -9,7 +9,7 @@ export function Footer({ children }: FooterProps) {
     <footer
       style={{
         backgroundColor: "#ffff",
-        padding: "12px 0px",
+        padding: "24px 0px",
         color: "#000",
         width: "100%",
         display: "flex",
