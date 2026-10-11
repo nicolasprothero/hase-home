@@ -37,7 +37,7 @@ export default function RootLayout({
           <Flex gap="12px">
             <NavButton href="/">Home</NavButton>
             <NavButton href="/books2026">Books (2026)</NavButton>
-            <NavButton href="/writings">Writings</NavButton>
+            {/* <NavButton href="/writings">Writings</NavButton> */}
             <NavButton href="/photos">Photos</NavButton>
           </Flex>
         </Header>
