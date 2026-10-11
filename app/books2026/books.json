@@ -267,5 +267,45 @@
     "finished_on": "09/3/2026",
     "rating": "★☆☆☆☆",
     "thoughts": "I just did not really enjoy this book. It felt as if I was reading a very well written writing excercise. Starting to think I have an aversion to small novels."
+  },
+  {
+    "title": "Confessions of a Mask",
+    "author": "Yukio Mishima",
+    "image_URL": "",
+    "fiction": true,
+    "page_count": 0,
+    "finished_on": "09/3/2026",
+    "rating": "★★★☆☆",
+    "thoughts": ""
+  },
+  {
+    "title": "North Woods",
+    "author": "Daniel Mason",
+    "image_URL": "",
+    "fiction": true,
+    "page_count": 369,
+    "finished_on": "09/3/2026",
+    "rating": "★★★☆☆",
+    "thoughts": ""
+  },
+  {
+    "title": "Deadeye Dick",
+    "author": "Kurt Vonnegut",
+    "image_URL": "",
+    "fiction": true,
+    "page_count": 271,
+    "finished_on": "09/3/2026",
+    "rating": "★★★☆☆",
+    "thoughts": ""
+  },
+  {
+    "title": "Hour of the Star",
+    "author": "Clarice Lispector",
+    "image_URL": "",
+    "fiction": true,
+    "page_count": 0,
+    "finished_on": "10/08/2026",
+    "rating": "★☆☆☆☆",
+    "thoughts": ""
   }
 ]

@@ -9,6 +9,7 @@ interface Photo {
   photos_from?: string;
   photos_to?: string;
   thoughts?: string;
+  shot_on?: string;
 }
 
 interface PhotoCardProps {
@@ -67,11 +68,12 @@ export default function PhotoCard({ photo, index }: PhotoCardProps) {
                   alt={photo.caption}
                   height="100%"
                   style={{ objectFit: "contain", flexShrink: 0 }}
+                  allowFullscreen
                 />
               ))}
             </div>
 
-            <Flex flexDir="column" gap="10px">
+            <Flex flexDir="column" gap="4px">
               <Heading
                 as="h2"
                 fontWeight="600"
@@ -81,15 +83,27 @@ export default function PhotoCard({ photo, index }: PhotoCardProps) {
                 <i>{photo.caption}</i>
               </Heading>
 
-              <Flex flexDir="column">
-                <Flex flexDir="row" gap="20px">
+              <Flex flexDir="column" maxWidth="200px">
+                <Flex flexDir="row" justify="space-between">
                   <Text fontSize="10px">PHOTOS FROM:</Text>
                   <Text fontSize="10px">{photo.photos_from}</Text>
                 </Flex>
                 {photo.photos_to && (
-                  <Flex flexDir="row" gap="20px">
+                  <Flex flexDir="row" justify="space-between">
                     <Text fontSize="10px">PHOTOS TO:</Text>
                     <Text fontSize="10px">{photo.photos_to}</Text>
+                  </Flex>
+                )}
+                {photo.shot_on && (
+                  <Flex flexDir="row" justify="space-between">
+                    <Text fontSize="10px">SHOT ON:</Text>
+                    <Text fontSize="10px">{photo.shot_on}</Text>
+                  </Flex>
+                )}
+                {photo.thoughts && (
+                  <Flex flexDir="row" justify="space-between">
+                    <Text fontSize="10px">SHOT ON:</Text>
+                    <Text fontSize="10px">{photo.thoughts}</Text>
                   </Flex>
                 )}
               </Flex>

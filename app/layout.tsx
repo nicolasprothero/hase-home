@@ -17,9 +17,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Nic Hase",
-    default: "Nic Hase",
+    template: "%s | Hase Home",
+    default: "Hase Home",
   },
+  manifest: "/icons/site.webmanifest",
 };
 
 export default function RootLayout({
@@ -37,7 +38,6 @@ export default function RootLayout({
           <Flex gap="12px">
             <NavButton href="/">Home</NavButton>
             <NavButton href="/books2026">Books (2026)</NavButton>
-            {/* <NavButton href="/writings">Writings</NavButton> */}
             <NavButton href="/photos">Photos</NavButton>
           </Flex>
         </Header>

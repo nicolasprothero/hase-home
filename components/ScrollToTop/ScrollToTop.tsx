@@ -1,5 +1,6 @@
 "use client";
 
+import { Button } from "hase-ui";
 import { useState, useEffect } from "react";
 
 export function ScrollToTop() {
@@ -20,27 +21,18 @@ export function ScrollToTop() {
   if (!visible) return null;
 
   return (
-    <button
+    <Button
       onClick={scrollToTop}
       style={{
         position: "fixed",
         bottom: "24px",
         right: "24px",
-        padding: "4px 18px",
-        borderRadius: "4px",
-        border: "none",
-        color: "#000",
-        backgroundColor: "#eee",
-        cursor: "pointer",
-        fontSize: "12px",
-        display: "flex",
-        alignItems: "center",
         justifyContent: "center",
         zIndex: 1000,
       }}
       aria-label="Scroll to top"
     >
       TOP
-    </button>
+    </Button>
   );
 }
