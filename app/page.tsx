@@ -1,4 +1,4 @@
-import { Flex, Div, Text, Image, Heading } from "hase-ui";
+import { Flex, Image } from "hase-ui";
 
 export default function Home() {
   return (
