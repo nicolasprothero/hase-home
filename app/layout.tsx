@@ -30,7 +30,7 @@ export default function RootLayout({
         <Header paddingY="10px">
           <Flex gap="12px">
             <NavButton href="/">Home</NavButton>
-            <NavButton href="/books2026">Books (2026)</NavButton>
+            <NavButton href="/books2026">Books</NavButton>
             <NavButton href="/photos">Photos</NavButton>
           </Flex>
         </Header>

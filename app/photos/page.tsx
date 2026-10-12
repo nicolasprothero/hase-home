@@ -14,11 +14,18 @@ export default function PhotosPage() {
   const realPhotos = photos.slice(1);
 
   return (
-    <Flex flexDir="column" width="100%" paddingBottom="48px" align="center">
+    <Flex
+      flexDir="column"
+      width="100%"
+      paddingBottom="48px"
+      align="center"
+      margin="0 auto"
+      style={{ maxWidth: "100vw", overflowX: "hidden" }}
+    >
       <Div marginBottom="40px">
         <HeroSection heading="photos taken both on film and on my iPhone" />
       </Div>
-      <Flex flexDir="column" gap="40px">
+      <Flex flexDir="column" gap="40px" style={{ minWidth: 0 }}>
         {realPhotos.map((photo, index) => (
           <PhotoCard
             key={`${photo.caption}-${index}`}
