@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import { Flex, Header } from "hase-ui";
+import { Header, Image } from "hase-ui";
 import { NavButton } from "@/components/NavButton";
 import { Footer } from "@/components/Footer";
+import { AnimatedNav } from "@/components/AnimatedNav/AnimatedNav";
 
 const arealFont = localFont({
   src: "./fonts/ABCArealVariable.ttf",
@@ -28,11 +29,15 @@ export default function RootLayout({
     <html lang="en" className={`${arealFont.variable} h-full antialiased`}>
       <body>
         <Header paddingY="10px">
-          <Flex gap="12px">
+          <AnimatedNav>
             <NavButton href="/">Home</NavButton>
             <NavButton href="/books2026">Books</NavButton>
+            <div className="nav-logo">
+              <Image src="/apple-icon.png" height="45px" width="45px" />
+            </div>
+            <NavButton href="/books2026">Writings</NavButton>
             <NavButton href="/photos">Photos</NavButton>
-          </Flex>
+          </AnimatedNav>
         </Header>
         {children}
         <Footer>HASE 2026</Footer>

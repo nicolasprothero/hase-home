@@ -1,4 +1,10 @@
-import { Flex, Image } from "hase-ui";
+"use client";
+
+import { Flex } from "hase-ui";
+import { ImageReveal } from "@/components/ImageReveal";
+
+const IMAGE_URL =
+  "https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/san-sebastian/4.jpg";
 
 export default function Home() {
   return (
@@ -9,10 +15,11 @@ export default function Home() {
       justify="center"
       margin="0 auto"
     >
-      <Image
+      <ImageReveal
+        src={IMAGE_URL}
+        alt="San Sebastián"
         height="70vh"
-        borderRadius="22px"
-        src="https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/photos/san-sebastian/4.jpg"
+        onIntroDone={() => window.dispatchEvent(new Event("hase:intro-done"))}
       />
     </Flex>
   );
