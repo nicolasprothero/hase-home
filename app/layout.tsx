@@ -28,14 +28,14 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${arealFont.variable} h-full antialiased`}>
       <body>
-        <Header paddingY="10px">
+        <Header paddingY="4px">
           <AnimatedNav>
             <NavButton href="/">Home</NavButton>
             <NavButton href="/books2026">Books</NavButton>
             <div className="nav-logo">
               <Image src="/apple-icon.png" height="45px" width="45px" />
             </div>
-            <NavButton href="/books2026">Writings</NavButton>
+            <NavButton href="/#">Writings</NavButton>
             <NavButton href="/photos">Photos</NavButton>
           </AnimatedNav>
         </Header>
