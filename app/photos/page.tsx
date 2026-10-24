@@ -25,7 +25,13 @@ export default function PhotosPage() {
       <Div marginBottom="40px">
         <HeroSection heading="photos taken both on film and on my iPhone" />
       </Div>
-      <Flex flexDir="column" gap="40px" style={{ minWidth: 0 }}>
+      <Flex
+        flexDir="column"
+        gap="40px"
+        width="90vw"
+        maxWidth="800px"
+        minWidth={0}
+      >
         {realPhotos.map((photo, index) => (
           <PhotoCard
             key={`${photo.caption}-${index}`}

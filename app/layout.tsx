@@ -35,8 +35,8 @@ export default function RootLayout({
             <div className="nav-logo">
               <Image src="/apple-icon.png" height="45px" width="45px" />
             </div>
-            <NavButton href="/#">Writings</NavButton>
-            <NavButton href="/photos">Photos</NavButton>
+            <NavButton href="/writings">Writing</NavButton>
+            <NavButton href="/photos">Photo</NavButton>
           </AnimatedNav>
         </Header>
         {children}

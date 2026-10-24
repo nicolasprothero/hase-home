@@ -15,15 +15,15 @@ export default function WritingsPage() {
   return (
     <Flex flexDir="column" width="100%" paddingBottom="48px" align="center">
       <HeroSection
-        bannerImage="https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/writings/writingsBanner.JPG"
-        bannerCaption="My second(?) sketchbook back in university."
+        // bannerImage="https://pub-455caab020af4ed28e6c32aac9edff88.r2.dev/writings/writingsBanner.JPG"
+        // bannerCaption="My second(?) sketchbook back in university."
         heading="Random lists and things I decide to put down on paper!"
       />
-      <Flex flexDir="column" gap="20px">
+      {/* <Flex flexDir="column" gap="20px">
         {realWritings.map((writing, index) => (
           <WritingCard key={index} writing={writing} index={index} />
         ))}
-      </Flex>
+      </Flex> */}
       <ScrollToTop />
     </Flex>
   );

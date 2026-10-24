@@ -95,9 +95,8 @@ export default function PhotoCard({ photo, index }: PhotoCardProps) {
         overflow: "hidden",
         minWidth: 0,
       }}
-      paddingX="24px"
-      paddingY="24px"
-      maxWidth="720px"
+      paddingX="clamp(12px, 4vw, 24px)"
+      paddingY="clamp(12px, 4vw, 24px)"
     >
       <Flex
         flexDir="column"
@@ -114,8 +113,7 @@ export default function PhotoCard({ photo, index }: PhotoCardProps) {
           style={{
             display: "flex",
             gap: "12px",
-            height: "40vh",
-            margin: "0 auto",
+            height: "40dvh",
             overflowX: "auto",
             flexWrap: "nowrap",
             scrollbarWidth: "none",
@@ -138,12 +136,18 @@ export default function PhotoCard({ photo, index }: PhotoCardProps) {
           ))}
         </div>
 
-        <Flex flexDir="column" gap="4px">
-          <Heading as="h2" fontWeight="600" lineHeight="24px" fontSize="16px">
+        <Flex flexDir="column" gap="4px" width="100%" minWidth={0}>
+          <Heading
+            as="h2"
+            fontWeight="600"
+            lineHeight="24px"
+            fontSize="16px"
+            style={{ overflowWrap: "anywhere" }}
+          >
             <i>{photo.caption}</i>
           </Heading>
 
-          <Flex flexDir="column" maxWidth="200px">
+          <Flex flexDir="column" width="100%" maxWidth="200px" minWidth={0}>
             <Flex flexDir="row" justify="space-between">
               <Text fontSize="10px">PHOTOS FROM:</Text>
               <Text fontSize="10px">{photo.photos_from}</Text>
@@ -163,8 +167,10 @@ export default function PhotoCard({ photo, index }: PhotoCardProps) {
           </Flex>
 
           {photo.thoughts && (
-            <Flex>
-              <Text fontSize="13px">{photo.thoughts}</Text>
+            <Flex width="100%" minWidth={0}>
+              <Text fontSize="13px" style={{ overflowWrap: "anywhere" }}>
+                {photo.thoughts}
+              </Text>
             </Flex>
           )}
         </Flex>
